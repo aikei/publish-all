@@ -1,8 +1,12 @@
 {
   "name": "publish-all",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple cli utilitity to automatically increment version and batch-publish npm packages from multiple folders",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aikei/publish-all.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
