@@ -1,0 +1,27 @@
+{
+  "name": "publish-all",
+  "version": "1.0.2",
+  "description": "a simple cli utilitity to automatically increment version and batch-publish npm packages from multiple folders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auto",
+    "publish",
+    "all",
+    "increment",
+    "version",
+    "batch",
+    "publish",
+    "batch publish"
+  ],
+  "author": "aikei",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  },
+  "bin": {
+    "publish-all": "index.js"
+  }
+}
